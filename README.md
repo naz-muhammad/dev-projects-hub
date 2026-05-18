@@ -4,7 +4,6 @@ This repository will contain my mini frontend and JavaScript projects as I progr
 
 The main focus is to build real projects and improve my development skills through practice.
 
----
 
 ## 🎯 Purpose
 
@@ -14,8 +13,6 @@ The main focus is to build real projects and improve my development skills throu
 - Develop consistency through building  
 - Prepare for full-stack development (in separate repositories)  
 
----
-
 ## 🧠 Approach
 
 - Learn by building, not just studying  
@@ -23,19 +20,16 @@ The main focus is to build real projects and improve my development skills throu
 - Projects will be small and independent  
 - Focus is on improvement, not perfection  
 
----
 
 ## 🚀 Projects
 
 No projects added yet.
 
----
 
 ## 📌 Goal
 
 To strengthen my frontend development skills by consistently building mini projects and improving step by step.
 
----
 
 ## 🔗 Connect
 
