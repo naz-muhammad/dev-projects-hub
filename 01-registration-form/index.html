@@ -1,63 +1,78 @@
 <!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Registration Form</title>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
-    <h1 class="main-heading">Registration Form</h1>
 
-    <form class="container">
-        <fieldset>
-            <legend>Personal Information</legend>
-            <div>
-                <label for="name">Enter your name</label>
-                <input type="text" id="name" placeholder="Enter your name" required />
-            </div>
-            <div>
-                <label for="email">Enter your email</label>
-                <input type="text" id="email" placeholder="Enter your email" required />
-            </div>
-            <div>
-                <label for="password">Enter your password</label>
-                <input type="text" id="password" placeholder="Enter your password" required />
-            </div>
+  <h1 class="title">Registration Form</h1>
 
-            <label for="gender" style="display: block;">Seclect your gender</label>
-            <input type="radio" name="male" id="gender"><label for="male">Male</label>
-            <input type="radio" name="Female" id="gender"><label for="Female">Female</label>
-            <input type="radio" name="other" id="gender"><label for="other">Prefer not to say</label>
+  <form class="form">
 
-        </fieldset>
+    <fieldset>
+      <legend>Personal Information</legend>
 
-        <fieldset>
+      <div class="field">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required />
+      </div>
 
-            <legend>Educational Information</legend>
-            <div>
-                <label for="marks">Enter your marks</label>
-                <input type="number" name="marks" id="marks">
-            </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required />
+      </div>
 
-            <label for="program">Choose your degree</label>
-            <select name="" id="">
-                <option value="">-- Select Your Program --</option>
-                <option value="">BS Computer Science</option>
-                <option value="">BS Artificial Intelligence</option>
-                <option value="">BS Software Engineering</option>
-            </select>
+      <div class="field">
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" required />
+      </div>
 
-            <label for="skills" style="display: block;">Choose your skills</label>
-            <input type="checkbox" name="html" id="html"> <label for="html">HTML</label>
-            <input type="checkbox" name="css" id="css"> <label for="css">CSS</label>
-            <input type="checkbox" name="js" id="js"> <label for="js">JavaScript</label>
-        </fieldset>
+      <div class="field">
+        <span class="label">Gender</span>
 
-        <button type="submit">Submit</button>
-    </form>
+        <label><input type="radio" name="gender" value="male"> Male</label>
+        <label><input type="radio" name="gender" value="female"> Female</label>
+        <label><input type="radio" name="gender" value="other"> Other</label>
+      </div>
+
+    </fieldset>
+
+
+    <fieldset>
+      <legend>Educational Information</legend>
+
+      <div class="field">
+        <label for="marks">Marks</label>
+        <input id="marks" name="marks" type="number" />
+      </div>
+
+      <div class="field">
+        <label for="program">Program</label>
+        <select id="program" name="program">
+          <option>-- Select --</option>
+          <option>BS Computer Science</option>
+          <option>BS Artificial Intelligence</option>
+          <option>BS Software Engineering</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <span class="label">Skills</span>
+
+        <label><input type="checkbox" name="skills" value="html"> HTML</label>
+        <label><input type="checkbox" name="skills" value="css"> CSS</label>
+        <label><input type="checkbox" name="skills" value="js"> JavaScript</label>
+      </div>
+
+    </fieldset>
+
+    <button type="submit">Submit</button>
+
+  </form>
+
 </body>
-
 </html>
