@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  padding: 20px;
+  color: #222;
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.registration-form {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.form-section {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+}
+
+legend {
+  padding: 0 8px;
+  font-weight: bold;
+}
+
+.form-field {
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form-label-group {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+label {
+  font-size: 14px;
+}
+
+input, select {
+  padding: 8px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  outline: none;
+}
+
+input:focus, select:focus {
+  border-color: #333;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #333;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background: #000;
+}
