@@ -3,38 +3,67 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>landing page</title>
+    <title>Landing Page</title>
 
     <link rel="stylesheet" href="style.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap"
       rel="stylesheet"
     />
   </head>
 
   <body>
-    <header>
-      <div>
-        <img src="./images/Group_11.svg" alt="bonanza logo" class="logo" />
 
-        <nav>
-          <ul>
-            <a href="#">
-              <li><img src="/icons/search.png" alt="" /></li>
-            </a>
-            <a href="#">
-              <li><img src="/icons/profile.png" alt="" /></li>
-            </a>
-            <a href="#">
-              <li><img src="/icons/heart.png" alt="" /></li>
-            </a>
-            <a href="#">
-              <li><img src="/icons/shopping-bag.png" alt="" /></li>
-            </a>
+    <header class="header">
+      <div class="navbar">
+
+        <!-- LEFT SIDE -->
+        <div class="navbar-left"></div>
+
+        <!-- CENTER LOGO -->
+        <div class="navbar-center">
+          <img
+            src="./images/Group_11.svg"
+            alt="bonanza logo"
+            class="navbar-logo"
+          />
+        </div>
+
+        <!-- RIGHT ICONS -->
+        <nav class="navbar-right">
+          <ul class="navbar-list">
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">
+                <img src="/icons/search.png" alt="search" />
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">
+                <img src="/icons/profile.png" alt="profile" />
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">
+                <img src="/icons/heart.png" alt="wishlist" />
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">
+                <img src="/icons/shopping-bag.png" alt="cart" />
+              </a>
+            </li>
+
           </ul>
         </nav>
+
       </div>
     </header>
   </body>

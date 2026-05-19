@@ -1,37 +1,66 @@
- * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-             font-family: "Montserrat", sans-serif;
-        }
+/*   RESET   */
 
-        div {
-            
-            display: flex;
-            
-            width: 100vw;
-            border-bottom: 1px solid lightgray;
-            padding: 15px;
-        }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-        .logo
-        {
-            width: 350px;
-            margin: auto;
-           
-        }
+body {
+  font-family: "Montserrat", sans-serif;
+}
 
-        nav ul {
-            display: flex;
-            margin-top: 24px;
-            gap: 22px;
-            margin-right: 24px;
-        }
-        ul li  {
-            list-style-type: none;
-        }
-        ul li img {
-            width: 20px;
-            
-            
-        }
+/*     HEADER    */
+
+.header {
+  border-bottom: 1px solid lightgray;
+}
+
+/*    NAVBAR LAYOUT   */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 15px 24px;
+}
+
+/* equal spacing system */
+
+.navbar-left,
+.navbar-right {
+  flex: 1;
+}
+
+/* CENTER LOGO */
+
+.navbar-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-logo {
+  width: 320px;
+  object-fit: contain;
+}
+
+/* RIGHT SIDE */
+
+.navbar-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* ICON LIST */
+
+.navbar-list {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  list-style: none;
+}
+
+.navbar-link img {
+  width: 20px;
+  cursor: pointer;
+}
