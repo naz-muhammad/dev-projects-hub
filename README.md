@@ -23,7 +23,7 @@ The main focus is to build real projects and improve my development skills throu
 
 ## 🚀 Projects
 
-No projects added yet.
+- registration form
 
 
 ## 📌 Goal
