@@ -8,12 +8,18 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  /* min-height: 100vh; */
 }
 
 /*     HEADER    */
 
 .header {
-  border-bottom: 1px solid lightgray;
+  position: sticky;
+  top: 0;
+  /* z-index: 1000;  */
+  background-color: #ffffff; 
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); 
+ 
 }
 
 /*    NAVBAR LAYOUT   */
@@ -22,6 +28,7 @@ body {
   display: flex;
   align-items: center;
   padding: 15px 24px;
+  border-bottom: 1px solid lightgray;
 }
 
 /* equal spacing system */
@@ -63,4 +70,28 @@ body {
 .navbar-link img {
   width: 20px;
   cursor: pointer;
+}
+
+.navbar-below {
+  padding: 15px 24px;
+}
+
+.navbar-below-list {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+
+
+}
+
+.navbar-below-item {
+  list-style: none;
+  font-size: 15px;
+  font-weight: 300;
+
+}
+
+.navbar-below-link {
+  text-decoration: none;
+  color: black;
 }
