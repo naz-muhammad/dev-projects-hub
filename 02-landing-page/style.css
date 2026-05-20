@@ -79,14 +79,14 @@ body {
 .navbar-below-list {
   display: flex;
   justify-content: center;
-  gap: 15px;
+  gap: 30px;
 
 
 }
 
 .navbar-below-item {
   list-style: none;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 300;
 
 }
