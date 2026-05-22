@@ -1,0 +1,174 @@
+/*   RESET   */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  min-height: 100vh;
+}
+
+/*     HEADER    */
+
+.header {
+  position: sticky;
+  top: 0;
+  background-color: #ffffff; 
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); 
+ 
+}
+
+/*    NAVBAR LAYOUT   */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 15px 24px;
+  border-bottom: 1px solid lightgray;
+}
+
+
+/* CENTER LOGO */
+
+.navbar-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-logo {
+  width: 320px;
+  object-fit: contain;
+}
+
+/* RIGHT SIDE */
+
+.navbar-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* ICON LIST */
+
+.navbar-list {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  list-style: none;
+}
+
+.navbar-link img {
+  width: 20px;
+  cursor: pointer;
+}
+
+.navbar-below {
+  padding: 15px 24px;
+}
+
+.navbar-below-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+
+
+}
+
+.navbar-below-item {
+  list-style: none;
+  font-size: 14px;
+  font-weight: 300;
+
+}
+
+.navbar-below-link {
+  text-decoration: none;
+  color: black;
+}
+
+.hero-section{
+min-height: 75vh;
+
+}
+
+.hero-sale{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.hero-heading{
+  margin: 42px 0px;
+  font-size: 45px;
+  letter-spacing: 6px;
+}
+.sale-list{
+  display: flex;
+  gap: 45px;
+}
+.sale-list .sale-item {
+  list-style: none;
+
+}
+.sale-item a {
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: black;
+  transition: all .3s;
+}
+.sale-item a:hover{
+  color: red;
+  text-decoration: underline;
+}
+
+
+
+.hero-image-gallery{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 25px 100px ;
+}
+.product-card{
+  margin: 12px;
+  
+}
+.info{
+  margin: 8px 0px;
+}
+.product-image{
+  height: 500px;
+  
+}
+strong{
+  font-weight: 600;
+  color: black;
+  font-size: 14px;
+  
+}
+.info-description{
+  font-size: 16px;
+}
+.info-btn{
+  background-color: black;
+  padding: 6px 12px;
+  border-radius: 12px;
+  border: none;
+  color: #fff;
+  align-items: end;
+  transition: all .3s;
+}
+.info-btn:hover{
+  background-color: #000000ce;
+}
+
+.footer-bottom{
+  border-top: 1px solid black;
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
