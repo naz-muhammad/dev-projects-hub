@@ -16,8 +16,6 @@ body {
 .header {
   position: sticky;
   top: 0;
-  /* z-index: 1000;  */
-  /* min-height: 15vh; */
   background-color: #ffffff; 
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); 
  
@@ -32,12 +30,6 @@ body {
   border-bottom: 1px solid lightgray;
 }
 
-/* equal spacing system */
-
-.navbar-left,
-.navbar-right {
-  flex: 1;
-}
 
 /* CENTER LOGO */
 
@@ -133,22 +125,50 @@ min-height: 75vh;
 }
 
 
-footer{
-  
-  min-height: 10vh;
-  background-color: red;
-}
 
 .hero-image-gallery{
-display: flex;
-flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
   margin: 25px 100px ;
 }
 .product-card{
   margin: 12px;
-
+  
+}
+.info{
+  margin: 8px 0px;
 }
 .product-image{
   height: 500px;
+  
+}
+strong{
+  font-weight: 600;
+  color: black;
+  font-size: 14px;
+  
+}
+.info-description{
+  font-size: 16px;
+}
+.info-btn{
+  background-color: black;
+  padding: 6px 12px;
+  border-radius: 12px;
+  border: none;
+  color: #fff;
+  align-items: end;
+  transition: all .3s;
+}
+.info-btn:hover{
+  background-color: #000000ce;
+}
+
+.footer-bottom{
+  border-top: 1px solid black;
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
 }
